@@ -190,13 +190,13 @@ if RequiredScript == "lib/managers/menu/skilltreeguinew" then
 
 		set_text_and_resize(low_blow_basic_label_text, low_blow_ace_label())
 		low_blow_basic_label_text:set_color(Color.white)
-		set_text_and_resize(low_blow_basic_value_text, tostring(crit_basic) .. "%")
-		low_blow_basic_value_text:set_color(color_for_crit(crit_basic))
+		set_text_and_resize(low_blow_basic_value_text, tostring(crit_ace) .. "%")
+		low_blow_basic_value_text:set_color(color_for_crit(crit_ace))
 
 		set_text_and_resize(low_blow_ace_label_text, low_blow_basic_label())
 		low_blow_ace_label_text:set_color(Color.white)
-		set_text_and_resize(low_blow_ace_value_text, tostring(crit_ace) .. "%")
-		low_blow_ace_value_text:set_color(color_for_crit(crit_ace))
+		set_text_and_resize(low_blow_ace_value_text, tostring(crit_basic) .. "%")
+		low_blow_ace_value_text:set_color(color_for_crit(crit_basic))
 		layout_indicator(self)
 	end
 
