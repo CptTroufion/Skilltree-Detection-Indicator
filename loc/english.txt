@@ -1,7 +1,7 @@
 {
-  "std_menu_title" : "Skilltree Detection Indicator",
-  "std_menu_desc" : "Skill tree detection display.",
-  "std_detection_label" : "Detection",
-  "LBB_SCORE" : "Low Blow Basic (under 5)",
-  "LBA_SCORE" : "Low Blow Ace (under 35)"
+  "menu_title" : "Skilltree Detection Indicator",
+  "menu_desc" : "Skill tree detection display.",
+  "menu_skilltree_score_detection" : "Detection",
+  "menu_skilltree_score_lbb" : "Low Blow Basic (under 5)",
+  "menu_skilltree_score_lba" : "Low Blow Ace (under 35)"
 }

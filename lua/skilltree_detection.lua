@@ -26,17 +26,17 @@ if RequiredScript == "lib/managers/menu/skilltreeguinew" then
 
 	-- Utilities
 	local function detection_label()
-		if managers.localization then return managers.localization:to_upper_text("std_detection_label", {}) end
+		if managers.localization then return managers.localization:to_upper_text("menu_skilltree_score_detection", {}) end
 		return "DETECTION"
 	end
 
 	local function low_blow_basic_label()
-		if managers.localization then return managers.localization:to_upper_text("LBB_SCORE", {}) end
+		if managers.localization then return managers.localization:to_upper_text("menu_skilltree_score_lbb", {}) end
 		return "LOW BLOW BASIC"
 	end
 
 	local function low_blow_ace_label()
-		if managers.localization then return managers.localization:to_upper_text("LBA_SCORE", {}) end
+		if managers.localization then return managers.localization:to_upper_text("menu_skilltree_score_lba", {}) end
 		return "LOW BLOW ACE"
 	end
 
